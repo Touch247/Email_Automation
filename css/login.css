@@ -1,0 +1,44 @@
+.whole {font-size: xx-large;
+    background-color: red;
+   }
+   .form-group row{
+       float: right;
+   }
+   footer {
+    height: 250px;    
+    background: #C51426;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px 0 50px;
+}
+
+footer .top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .top-section h4 {
+    font-weight: bold;
+}
+
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-section .copyright {
+    font-size: 0.8rem;
+}
+
+.social-media-icons span{
+    display: flex;
+}
+
+.social-media-icons span img {
+    max-width: 20px;
+}
+
+footer .top-section a:hover {
+    color: rgb(202, 187, 187);
+}
